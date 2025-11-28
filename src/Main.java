@@ -24,7 +24,7 @@ public class Main {
         }
     }
     // метод к заданию 3
-    public static int determinateTheDistance(int deliveryDistance) {
+    public static int determineTheDistance(int deliveryDistance) {
         int timeDeliveryOne = 1;
         int timeDeliveryTwo = timeDeliveryOne + 1;
         int timeDeliveryThree = timeDeliveryTwo + 1;
@@ -61,7 +61,7 @@ public class Main {
         System.out.println(" Задание №3 ");
 
         int deliveryDistance = 90;
-        int daysNeeded = determinateTheDistance(deliveryDistance);
+        int daysNeeded = determineTheDistance(deliveryDistance);
         System.out.println(" Потребуется дней " + daysNeeded);
     }
 }
